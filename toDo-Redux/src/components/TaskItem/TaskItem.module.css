@@ -1,0 +1,43 @@
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.edit {
+  background: #2196f3;
+  color: white;
+}
+
+.delete {
+  background: #f44336;
+  color: white;
+}
